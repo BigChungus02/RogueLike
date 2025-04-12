@@ -74,6 +74,7 @@
     {"id":{"name":"RedSlime_Idle","path":"sprites/RedSlime_Idle/RedSlime_Idle.yy",},},
     {"id":{"name":"RedSlime_Left","path":"sprites/RedSlime_Left/RedSlime_Left.yy",},},
     {"id":{"name":"RedSlime_Right","path":"sprites/RedSlime_Right/RedSlime_Right.yy",},},
+    {"id":{"name":"Swing","path":"sprites/Swing/Swing.yy",},},
     {"id":{"name":"WoodSword","path":"sprites/WoodSword/WoodSword.yy",},},
     {"id":{"name":"TileBlack","path":"tilesets/TileBlack/TileBlack.yy",},},
     {"id":{"name":"TileGreen","path":"tilesets/TileGreen/TileGreen.yy",},},

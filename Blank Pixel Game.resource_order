@@ -45,6 +45,7 @@
     {"name":"Player_Right","order":1,"path":"sprites/Player_Right/Player_Right.yy",},
     {"name":"RedSlime_Left","order":1,"path":"sprites/RedSlime_Left/RedSlime_Left.yy",},
     {"name":"RedSlime_Right","order":2,"path":"sprites/RedSlime_Right/RedSlime_Right.yy",},
+    {"name":"Swing","order":3,"path":"sprites/Swing/Swing.yy",},
     {"name":"WoodSword","order":1,"path":"sprites/WoodSword/WoodSword.yy",},
     {"name":"TileGreen","order":1,"path":"tilesets/TileGreen/TileGreen.yy",},
   ],

@@ -1,6 +1,12 @@
 target_x = x;
 target_y = y;
 
+kb_x = 0;
+kb_y = 0;
+
 alarm[0] = 60;
 
 tilemap = layer_tilemap_get_id("Tiles_Col");
+
+image_xscale = 0.75;
+image_yscale = 0.75;

@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Sword",
+  "%Name":"Melee_Parent",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Sword",
+  "name":"Melee_Parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Weapons",
     "path":"folders/Objects/Weapons.yy",
   },
-  "parentObjectId":{
-    "name":"Melee_Parent",
-    "path":"objects/Melee_Parent/Melee_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,14 +25,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"speed","filters":[],"listItems":[],"multiselect":false,"name":"speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"BasicSword",
-    "path":"sprites/BasicSword/BasicSword.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

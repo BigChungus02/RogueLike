@@ -3,10 +3,13 @@
   "%Name":"BasicBlueSlime",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Melee_Parent","path":"objects/Melee_Parent/Melee_Parent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"BasicBlueSlime",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyParrent","path":"objects/EnemyParrent/EnemyParrent.yy",},"propertyId":{"name":"hp","path":"objects/EnemyParrent/EnemyParrent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+  ],
   "parent":{
     "name":"Basic Slimes",
     "path":"folders/Objects/Enemies/Basic Slimes.yy",

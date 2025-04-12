@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Weapon_Parent",
+  "%Name":"SlimeSpawn",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Weapon_Parent",
+  "name":"SlimeSpawn",
   "overriddenProperties":[],
   "parent":{
-    "name":"Weapons",
-    "path":"folders/Objects/Weapons.yy",
+    "name":"Basic Slimes",
+    "path":"folders/Objects/Enemies/Basic Slimes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -25,14 +27,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"speed","filters":[],"listItems":[],"multiselect":false,"name":"speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"SlimeSpawn_spr",
+    "path":"sprites/SlimeSpawn_spr/SlimeSpawn_spr.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

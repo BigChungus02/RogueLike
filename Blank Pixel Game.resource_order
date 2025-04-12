@@ -38,6 +38,7 @@
     {"name":"Black","order":1,"path":"sprites/Black/Black.yy",},
     {"name":"BlueSlime_Left","order":1,"path":"sprites/BlueSlime_Left/BlueSlime_Left.yy",},
     {"name":"BlueSlime_Right","order":2,"path":"sprites/BlueSlime_Right/BlueSlime_Right.yy",},
+    {"name":"ClifsAndStuff","order":6,"path":"sprites/ClifsAndStuff/ClifsAndStuff.yy",},
     {"name":"GrassTileSet","order":4,"path":"sprites/GrassTileSet/GrassTileSet.yy",},
     {"name":"GreenSlime_Left","order":1,"path":"sprites/GreenSlime_Left/GreenSlime_Left.yy",},
     {"name":"GreenSlime_Right","order":2,"path":"sprites/GreenSlime_Right/GreenSlime_Right.yy",},

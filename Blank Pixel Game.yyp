@@ -65,6 +65,7 @@
     {"id":{"name":"BlueSlime_Idle","path":"sprites/BlueSlime_Idle/BlueSlime_Idle.yy",},},
     {"id":{"name":"BlueSlime_Left","path":"sprites/BlueSlime_Left/BlueSlime_Left.yy",},},
     {"id":{"name":"BlueSlime_Right","path":"sprites/BlueSlime_Right/BlueSlime_Right.yy",},},
+    {"id":{"name":"ClifsAndStuff","path":"sprites/ClifsAndStuff/ClifsAndStuff.yy",},},
     {"id":{"name":"GrassTileSet","path":"sprites/GrassTileSet/GrassTileSet.yy",},},
     {"id":{"name":"Green","path":"sprites/Green/Green.yy",},},
     {"id":{"name":"GreenSlime_Idle","path":"sprites/GreenSlime_Idle/GreenSlime_Idle.yy",},},

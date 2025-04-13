@@ -9,6 +9,6 @@ var _ver = clamp(target_y - y, -1, 1);
 
 move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, SlimeParrent], undefined, undefined, undefined, move_speed, move_speed); 
 
-if (Player.x >= x + 20) sprite_index = YellowSlime_Right;
-else if (Player.x <= x - 20) sprite_index = YellowSlime_Left;
+if (target_x >= x + 1) sprite_index = YellowSlime_Right;
+else if (target_x <= x - 1) sprite_index = YellowSlime_Left;
 else sprite_index = YellowSlime_Idle;

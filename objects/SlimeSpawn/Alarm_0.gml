@@ -24,6 +24,5 @@ if (instance_number(SlimeParrent)  < 8)
 	_inst.image_yscale = size;
 	_inst.move_speed = random_range(1, 2);
 }
-}
 
 alarm[0] = 180;

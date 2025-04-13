@@ -1,0 +1,3 @@
+1. Slime Jitter - Slimes jitter when coliding with other slimes or the col tile map
+
+2. Slimes to Player - Slimes stop moving towords the player when they get clos

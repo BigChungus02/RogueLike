@@ -1,0 +1,20 @@
+1. Player Sprite
+	Need input on character design
+
+2. More Weapons
+	Need to finalize attack system and create animation
+
+2. Progretion System
+	Need input on progretion
+	
+3. Progretion GUI
+	Need above and to learn how GUI works
+
+4. More Enimies/Bosses
+	Need all of the obove and new sprites
+
+5. Create Level
+	Need all of the obove and new sprites
+
+6. Randomly Generated
+	Need all of the obove and a college degree in comp sci

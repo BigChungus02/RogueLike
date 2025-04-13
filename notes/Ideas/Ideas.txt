@@ -1,0 +1,3 @@
+1. AI Pathing - Give slimes AI pathing and see if it fixes some of their jank
+
+2. Shaders - Use shaders for a palette swap instead of having multiple objs

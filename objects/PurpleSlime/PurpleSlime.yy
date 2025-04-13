@@ -1,20 +1,23 @@
 {
   "$GMObject":"",
-  "%Name":"SlimeSpawn",
+  "%Name":"PurpleSlime",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Melee_Parent","path":"objects/Melee_Parent/Melee_Parent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"SlimeSpawn",
-  "overriddenProperties":[],
+  "name":"PurpleSlime",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"SlimeParrent","path":"objects/SlimeParrent/SlimeParrent.yy",},"propertyId":{"name":"hp","path":"objects/SlimeParrent/SlimeParrent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+  ],
   "parent":{
     "name":"Slimes",
     "path":"folders/Objects/Enemies/Slimes.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"SlimeParrent",
+    "path":"objects/SlimeParrent/SlimeParrent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SlimeSpawn_spr",
-    "path":"sprites/SlimeSpawn_spr/SlimeSpawn_spr.yy",
+    "name":"PurpleSlime_Idle",
+    "path":"sprites/PurpleSlime_Idle/PurpleSlime_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

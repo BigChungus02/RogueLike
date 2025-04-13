@@ -1,22 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"BasicRedSlime",
+  "%Name":"GreenSlime",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Melee_Parent","path":"objects/Melee_Parent/Melee_Parent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"BasicRedSlime",
+  "name":"GreenSlime",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyParrent","path":"objects/EnemyParrent/EnemyParrent.yy",},"propertyId":{"name":"hp","path":"objects/EnemyParrent/EnemyParrent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"SlimeParrent","path":"objects/SlimeParrent/SlimeParrent.yy",},"propertyId":{"name":"hp","path":"objects/SlimeParrent/SlimeParrent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],
   "parent":{
-    "name":"Basic Slimes",
-    "path":"folders/Objects/Enemies/Basic Slimes.yy",
+    "name":"Slimes",
+    "path":"folders/Objects/Enemies/Slimes.yy",
   },
   "parentObjectId":{
-    "name":"EnemyParrent",
-    "path":"objects/EnemyParrent/EnemyParrent.yy",
+    "name":"SlimeParrent",
+    "path":"objects/SlimeParrent/SlimeParrent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"RedSlime_Idle",
-    "path":"sprites/RedSlime_Idle/RedSlime_Idle.yy",
+    "name":"GreenSlime_Idle",
+    "path":"sprites/GreenSlime_Idle/GreenSlime_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

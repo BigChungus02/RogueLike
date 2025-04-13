@@ -1,3 +1,2 @@
 1. Slime Jitter - Slimes jitter when coliding with other slimes or the col tile map
-
-2. Slimes to Player - Slimes stop moving towords the player when they get clos
+2. Eyes - The eyes mess up sometimes and nobody else on the whole internet has ever had this problem

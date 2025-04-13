@@ -1,7 +1,7 @@
 if (instance_exists(Player) && distance_to_object(Player) < distance_to_player)
 {
-	target_x = Player.x;
-	target_y = Player.y;
+	target_x = Player.x - 10;
+	target_y = Player.y - 15;
 }
 else
 {

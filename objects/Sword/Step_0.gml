@@ -22,7 +22,7 @@ else if ((sprite_index == Swing) && (image_index > (2)))
 
 if (sprite_index != Swing)
 {
-	x = Player.x + 8;
+	x = Player.x + 15;
 	y = Player.y + 10;
 }
 else 

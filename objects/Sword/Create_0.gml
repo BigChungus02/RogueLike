@@ -1,3 +1,3 @@
-depth = 0;
+depth = 2;
 
 active = false;

@@ -1,2 +1,2 @@
-1. Slime Jitter - Slimes jitter when coliding with other slimes or the col tile map
-2. Eyes - The eyes mess up sometimes and nobody else on the whole internet has ever had this problem
+1. Small slimes jitter all of the time.
+2. Large slimes get stuck in the walls.

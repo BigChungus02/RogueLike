@@ -83,6 +83,7 @@
     {"id":{"name":"GreenSlime_Idle","path":"sprites/GreenSlime_Idle/GreenSlime_Idle.yy",},},
     {"id":{"name":"GreenSlime_Left","path":"sprites/GreenSlime_Left/GreenSlime_Left.yy",},},
     {"id":{"name":"GreenSlime_Right","path":"sprites/GreenSlime_Right/GreenSlime_Right.yy",},},
+    {"id":{"name":"PathTile_spr","path":"sprites/PathTile_spr/PathTile_spr.yy",},},
     {"id":{"name":"peasant_left","path":"sprites/peasant_left/peasant_left.yy",},},
     {"id":{"name":"peasant_right","path":"sprites/peasant_right/peasant_right.yy",},},
     {"id":{"name":"Player_Down","path":"sprites/Player_Down/Player_Down.yy",},},

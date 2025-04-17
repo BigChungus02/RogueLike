@@ -53,6 +53,7 @@
     {"name":"Greatsword","order":3,"path":"sprites/Greatsword/Greatsword.yy",},
     {"name":"GreenSlime_Left","order":1,"path":"sprites/GreenSlime_Left/GreenSlime_Left.yy",},
     {"name":"GreenSlime_Right","order":2,"path":"sprites/GreenSlime_Right/GreenSlime_Right.yy",},
+    {"name":"PathTile_spr","order":4,"path":"sprites/PathTile_spr/PathTile_spr.yy",},
     {"name":"peasant_left","order":5,"path":"sprites/peasant_left/peasant_left.yy",},
     {"name":"peasant_right","order":6,"path":"sprites/peasant_right/peasant_right.yy",},
     {"name":"Player_Down","order":3,"path":"sprites/Player_Down/Player_Down.yy",},

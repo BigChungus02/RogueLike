@@ -83,6 +83,7 @@
     {"id":{"name":"GreenSlime_Idle","path":"sprites/GreenSlime_Idle/GreenSlime_Idle.yy",},},
     {"id":{"name":"GreenSlime_Left","path":"sprites/GreenSlime_Left/GreenSlime_Left.yy",},},
     {"id":{"name":"GreenSlime_Right","path":"sprites/GreenSlime_Right/GreenSlime_Right.yy",},},
+    {"id":{"name":"idk_right","path":"sprites/idk_right/idk_right.yy",},},
     {"id":{"name":"idk","path":"sprites/idk/idk.yy",},},
     {"id":{"name":"Player_Down","path":"sprites/Player_Down/Player_Down.yy",},},
     {"id":{"name":"Player_Left","path":"sprites/Player_Left/Player_Left.yy",},},

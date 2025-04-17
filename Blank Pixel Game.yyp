@@ -65,6 +65,7 @@
     {"id":{"name":"SlimeSpawn","path":"objects/SlimeSpawn/SlimeSpawn.yy",},},
     {"id":{"name":"Sword","path":"objects/Sword/Sword.yy",},},
     {"id":{"name":"YellowSlime","path":"objects/YellowSlime/YellowSlime.yy",},},
+    {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"id":{"name":"PaletteSwapping","path":"shaders/PaletteSwapping/PaletteSwapping.yy",},},
     {"id":{"name":"BasicDagger","path":"sprites/BasicDagger/BasicDagger.yy",},},

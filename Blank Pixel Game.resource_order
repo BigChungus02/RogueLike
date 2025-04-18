@@ -71,6 +71,7 @@
     {"name":"SlimeSpawn_spr","order":3,"path":"sprites/SlimeSpawn_spr/SlimeSpawn_spr.yy",},
     {"name":"StarterTiles_spr","order":2,"path":"sprites/StarterTiles_spr/StarterTiles_spr.yy",},
     {"name":"Swing","order":3,"path":"sprites/Swing/Swing.yy",},
+    {"name":"TileTitle","order":3,"path":"sprites/TileTitle/TileTitle.yy",},
     {"name":"WoodSword","order":1,"path":"sprites/WoodSword/WoodSword.yy",},
     {"name":"YellowSlime_Left","order":1,"path":"sprites/YellowSlime_Left/YellowSlime_Left.yy",},
     {"name":"YellowSlime_Right","order":2,"path":"sprites/YellowSlime_Right/YellowSlime_Right.yy",},

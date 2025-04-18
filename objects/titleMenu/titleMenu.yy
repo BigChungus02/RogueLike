@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"menubg_spr",
-    "path":"sprites/menubg_spr/menubg_spr.yy",
+    "name":"TileTitle",
+    "path":"sprites/TileTitle/TileTitle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

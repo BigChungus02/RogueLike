@@ -12,7 +12,7 @@ height = op_border*2 + string_height(option[0, 0]) + (op_length-1)*op_space;
 x = round(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0])/2 - width/2);
 y = round(camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0])/2 - height/2);
 
-draw_sprite_ext(sprite_index, image_index, x, y, width/20, height/20, 0, c_white, 1);
+draw_sprite_ext(sprite_index, image_index, x, y, width/24, height/24, 0, c_white, 1);
 
 draw_set_valign(fa_top);
 draw_set_halign(fa_center);

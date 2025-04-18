@@ -18,25 +18,10 @@ if accept_key {
 			switch(pos){
 				//start
 				case 0: room_goto_next(); break;
-				//settings
-				case 1: menu_level = 1; break;
 				//quit
-				case 2: game_end(); break;
+				case 1: game_end(); break;
 				}
 			break;
-		
-		//settings
-		case 1:
-			switch(pos) {
-				//window size
-				case 0: break;
-				//brightness
-				case 1: break;
-				//controls
-				case 2: break;
-				//back
-				case 3: menu_level = 0; break;
-			}
 	}
 	
 	if _sml != menu_level {pos = 0};

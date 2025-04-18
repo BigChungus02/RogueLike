@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Testing",
-    "path":"folders/Tile Sets/Testing.yy",
+    "name":"Menu",
+    "path":"folders/Sprites/Menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

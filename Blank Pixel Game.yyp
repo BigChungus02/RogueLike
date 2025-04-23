@@ -48,7 +48,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"Blank Pixel Game",
   "resources":[
@@ -57,7 +57,9 @@
     {"id":{"name":"Timeline","path":"notes/Timeline/Timeline.yy",},},
     {"id":{"name":"BlueSlime","path":"objects/BlueSlime/BlueSlime.yy",},},
     {"id":{"name":"GreenSlime","path":"objects/GreenSlime/GreenSlime.yy",},},
+    {"id":{"name":"infoBox","path":"objects/infoBox/infoBox.yy",},},
     {"id":{"name":"Melee_Parent","path":"objects/Melee_Parent/Melee_Parent.yy",},},
+    {"id":{"name":"pauseMenu","path":"objects/pauseMenu/pauseMenu.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"PurpleSlime","path":"objects/PurpleSlime/PurpleSlime.yy",},},
     {"id":{"name":"RedSlime","path":"objects/RedSlime/RedSlime.yy",},},
@@ -71,9 +73,11 @@
     {"id":{"name":"titleMenu","path":"objects/titleMenu/titleMenu.yy",},},
     {"id":{"name":"YellowSlime","path":"objects/YellowSlime/YellowSlime.yy",},},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
+    {"id":{"name":"PauseScreen","path":"rooms/PauseScreen/PauseScreen.yy",},},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"PaletteSwapping","path":"shaders/PaletteSwapping/PaletteSwapping.yy",},},
+    {"id":{"name":"Background_ani","path":"sprites/Background_ani/Background_ani.yy",},},
     {"id":{"name":"BasicDagger","path":"sprites/BasicDagger/BasicDagger.yy",},},
     {"id":{"name":"BasicShield_Active","path":"sprites/BasicShield_Active/BasicShield_Active.yy",},},
     {"id":{"name":"BasicShield_Idle","path":"sprites/BasicShield_Idle/BasicShield_Idle.yy",},},
@@ -125,6 +129,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"roomId":{"name":"PauseScreen","path":"rooms/PauseScreen/PauseScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

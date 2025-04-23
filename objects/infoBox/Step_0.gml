@@ -1,0 +1,1 @@
+lines = array_length(line);

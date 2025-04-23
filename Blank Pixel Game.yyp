@@ -48,7 +48,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"Blank Pixel Game",
   "resources":[
@@ -92,6 +92,7 @@
     {"id":{"name":"GreenSlime_Left","path":"sprites/GreenSlime_Left/GreenSlime_Left.yy",},},
     {"id":{"name":"GreenSlime_Right","path":"sprites/GreenSlime_Right/GreenSlime_Right.yy",},},
     {"id":{"name":"PathTile_spr","path":"sprites/PathTile_spr/PathTile_spr.yy",},},
+    {"id":{"name":"peasant_attacl","path":"sprites/peasant_attacl/peasant_attacl.yy",},},
     {"id":{"name":"peasant_left","path":"sprites/peasant_left/peasant_left.yy",},},
     {"id":{"name":"peasant_right","path":"sprites/peasant_right/peasant_right.yy",},},
     {"id":{"name":"Player_Down","path":"sprites/Player_Down/Player_Down.yy",},},

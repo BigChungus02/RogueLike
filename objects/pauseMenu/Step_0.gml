@@ -10,7 +10,7 @@ pos += down_key - up_key;
 if pos >= op_length {pos = 0};
 if pos < 0 {pos = op_length-1};
 
-if menu_level == 1 {pos = 8};
+if menu_level == 1 {pos = 9};
 if menu_level == 0 {if pos = 0 {pos = 1}};
 
 
@@ -25,7 +25,7 @@ if accept_key {
 				//info
 				case 2: menu_level = 1; break;
 				//quit
-				case 3: game_end(); break;
+				case 3: room_goto(TitleScreen); break;
 				}
 			break;
 		case 1: menu_level = 0; break;

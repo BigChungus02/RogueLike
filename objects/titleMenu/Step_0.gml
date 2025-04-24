@@ -10,7 +10,7 @@ pos += down_key - up_key;
 if pos >= op_length {pos = 0};
 if pos < 0 {pos = op_length-1};
 
-if menu_level == 1 {pos = 8};
+if menu_level == 1 {pos = 9};
 
 if accept_key {
 	var _sml = menu_level;

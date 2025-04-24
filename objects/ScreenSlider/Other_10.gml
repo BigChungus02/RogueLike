@@ -1,1 +1,0 @@
-//window_set_size(320*round(value), 180*round(value));

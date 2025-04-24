@@ -63,7 +63,6 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"PurpleSlime","path":"objects/PurpleSlime/PurpleSlime.yy",},},
     {"id":{"name":"RedSlime","path":"objects/RedSlime/RedSlime.yy",},},
-    {"id":{"name":"ScreenSlider","path":"objects/ScreenSlider/ScreenSlider.yy",},},
     {"id":{"name":"settings_obj","path":"objects/settings_obj/settings_obj.yy",},},
     {"id":{"name":"Shield","path":"objects/Shield/Shield.yy",},},
     {"id":{"name":"sliderParent","path":"objects/sliderParent/sliderParent.yy",},},

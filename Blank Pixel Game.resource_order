@@ -48,6 +48,7 @@
     {"name":"titleMenu","order":5,"path":"objects/titleMenu/titleMenu.yy",},
     {"name":"YellowSlime","order":6,"path":"objects/YellowSlime/YellowSlime.yy",},
     {"name":"PauseScreen","order":2,"path":"rooms/PauseScreen/PauseScreen.yy",},
+    {"name":"Room","order":3,"path":"rooms/Room/Room.yy",},
     {"name":"TitleScreen","order":1,"path":"rooms/TitleScreen/TitleScreen.yy",},
     {"name":"PaletteSwapping","order":2,"path":"shaders/PaletteSwapping/PaletteSwapping.yy",},
     {"name":"Background_ani","order":5,"path":"sprites/Background_ani/Background_ani.yy",},

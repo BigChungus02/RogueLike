@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"StarterTiles",
-  "out_columns":7,
+  "out_columns":8,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -49,6 +49,10 @@
     {"$GMTileAnimation":"","%Name":"animation_20","frames":[13,47,],"name":"animation_20","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
     {"$GMTileAnimation":"","%Name":"animation_21","frames":[12,46,],"name":"animation_21","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
     {"$GMTileAnimation":"","%Name":"animation_22","frames":[11,45,],"name":"animation_22","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_23","frames":[55,60,],"name":"animation_23","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_24","frames":[56,61,],"name":"animation_24","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_25","frames":[57,62,],"name":"animation_25","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_26","frames":[58,63,],"name":"animation_26","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
   ],
   "tileAnimationSpeed":0.5,
   "tileHeight":16,
@@ -57,5 +61,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":55,
+  "tile_count":65,
 }

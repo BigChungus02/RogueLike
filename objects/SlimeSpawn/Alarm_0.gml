@@ -2,10 +2,10 @@ var num = irandom(4)
 
 if (instance_number(SlimeParrent)  < 8)
 {
-	if (num == 0) var _inst = instance_create_depth(x - random_range(5, 50), y + random_range(-25, 25), depth, BlueSlime);
+	if (num == 0) var _inst = instance_create_depth(x - irandom_range(5, 50), y + irandom_range(-25, 25), depth, BlueSlime);
 	else if (num == 1)
 	{
-		var _inst = instance_create_depth(x - random_range(-25, 25), y + random_range(-25, 25), depth, GreenSlime);
+		var _inst = instance_create_depth(x - irandom_range(-25, 25), y + irandom_range(-25, 25), depth, GreenSlime);
 	}
 	else if (num == 2)
 	{
@@ -25,13 +25,13 @@ if (instance_number(SlimeParrent)  < 8)
 	{
 		_inst.image_xscale = ran;	
 		_inst.image_yscale = ran;
-		_inst.move_speed = 2;
+		_inst.move_speed = 1;
 	}
 		else if ran == 2
 	{
 		_inst.image_xscale = ran;	
 		_inst.image_yscale = ran;
-		_inst.move_speed = 1;
+		_inst.move_speed = 0.5;
 	}
 }
 

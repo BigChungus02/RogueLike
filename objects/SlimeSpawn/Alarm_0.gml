@@ -20,7 +20,8 @@ if (instance_number(SlimeParrent)  < 8)
 		var _inst = instance_create_depth(x, y, depth, YellowSlime);
 	}
 	
-	var ran = irandom_range(1, 2);
+	//var ran = irandom_range(1, 2);
+	var ran = 1
 	if ran == 1 
 	{
 		_inst.image_xscale = ran;	

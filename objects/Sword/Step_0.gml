@@ -11,6 +11,10 @@ if level < 5 {
 	swingScale = 1;
 	yVal = -3;
 	damage = 1;
+	sprite_index = sprite;
+	image_angle = 0;
+	image_xscale = scale;
+	image_yscale = scale;
 }
 else if level < 10 {
 	sprite = BasicSword;
@@ -18,6 +22,10 @@ else if level < 10 {
 	swingScale = 1.5;
 	yVal = 1;
 	damage = 2;
+	sprite_index = sprite;
+	image_angle = 0;
+	image_xscale = scale;
+	image_yscale = scale;
 }
 else {
 	sprite = Greatsword;
@@ -25,6 +33,10 @@ else {
 	swingScale = 2;
 	yVal = -3;
 	damage = 3;
+	sprite_index = sprite;
+	image_angle = 0;
+	image_xscale = scale;
+	image_yscale = scale;
 }
 
 if (mouse_check_button_pressed(mb_left))
@@ -39,7 +51,7 @@ if (mouse_check_button_pressed(mb_left))
 		image_xscale = swingScale;
 		image_yscale = swingScale;
 		active = true;
-		alarm[1] = 20;
+		alarm[1] = 10;
 	}
 }
 else if ((sprite_index == Swing) && (image_index > (2)))

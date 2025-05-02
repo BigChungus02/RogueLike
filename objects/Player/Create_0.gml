@@ -7,3 +7,6 @@ damage = 1;
 depth = 1;
 
 image_speed = 0;
+
+hp = 3;
+hp_total = hp;

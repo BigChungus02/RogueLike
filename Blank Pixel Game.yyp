@@ -48,7 +48,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"Blank Pixel Game",
   "resources":[
@@ -72,6 +72,7 @@
     {"id":{"name":"titleMenu","path":"objects/titleMenu/titleMenu.yy",},},
     {"id":{"name":"win_obj","path":"objects/win_obj/win_obj.yy",},},
     {"id":{"name":"YellowSlime","path":"objects/YellowSlime/YellowSlime.yy",},},
+    {"id":{"name":"FRoom","path":"rooms/FRoom/FRoom.yy",},},
     {"id":{"name":"PauseScreen","path":"rooms/PauseScreen/PauseScreen.yy",},},
     {"id":{"name":"Room","path":"rooms/Room/Room.yy",},},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
@@ -139,6 +140,7 @@
     {"roomId":{"name":"PauseScreen","path":"rooms/PauseScreen/PauseScreen.yy",},},
     {"roomId":{"name":"Room","path":"rooms/Room/Room.yy",},},
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
+    {"roomId":{"name":"FRoom","path":"rooms/FRoom/FRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

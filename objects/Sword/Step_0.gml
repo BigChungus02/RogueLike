@@ -4,7 +4,7 @@ if (mouse_check_button_pressed(mb_left))
 {
 	sprite_index = Swing;
 	x = Player.x;
-	y = Player.y + 5;
+	y = Player.y;
 	image_angle = md;
 	image_index = 0;
 	image_xscale = 1;
@@ -21,8 +21,8 @@ else if ((sprite_index == Swing) && (image_index > (2)))
 }
 if (sprite_index != Swing)
 {
-	x = Player.x + 8;
-	y = Player.y + 5;
+	x = Player.x + 5;
+	y = Player.y + 1;
 }
 else 
 {	

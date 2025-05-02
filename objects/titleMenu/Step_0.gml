@@ -19,7 +19,7 @@ if accept_key {
 		case 0:
 			switch(pos){
 				//start
-				case 0: room_goto(Room); break;
+				case 0: room_goto(FRoom); break;
 				//info
 				case 1: menu_level = 1; break;
 				//quit

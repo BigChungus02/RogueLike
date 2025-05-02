@@ -35,7 +35,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Player_Down",
     "path":"sprites/Player_Down/Player_Down.yy",

@@ -1,1 +1,1 @@
-room_goto(Win)
+room_goto(WinScreen)

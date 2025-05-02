@@ -9,7 +9,7 @@ _ver = round(lengthdir_y(_len, _dir));
 // To fix this follow this video https://www.youtube.com/watch?v=2JDkTIk2OkI&list=PLhIbBGhnxj5Ier75j1M9jj5xrtAaaL1_4&index=7
 // Time stamps are 7:12 to end of video.
 
-move_and_collide(_hor * move_speed, _ver *move_speed, [tilemap, layer_tilemap_get_id("Homes")], undefined, undefined, undefined, move_speed, move_speed);
+move_and_collide(_hor * move_speed, _ver *move_speed, [tilemap, layer_tilemap_get_id("Homes"), House], undefined, undefined, undefined, move_speed, move_speed);
 
 if (_hor != 0 or _ver != 0)
 {

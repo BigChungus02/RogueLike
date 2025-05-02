@@ -21,7 +21,7 @@ if accept_key {
 		case 0:
 			switch(pos){
 				//start
-				case 1: room_goto(Room); break;
+				case 1: room_goto(MainRoom); break;
 				//info
 				case 2: menu_level = 1; break;
 				//quit

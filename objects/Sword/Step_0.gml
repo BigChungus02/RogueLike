@@ -1,44 +1,48 @@
 var md = point_direction(x, y, mouse_x, mouse_y);
 
 if level < 5 {
-	sprite = BasicDagger;
-	scale = 0.5;
-	swingScale = 1;
-	yVal = -3;
-	damage = 1;
-	sprite_index = sprite;
-	image_angle = 0;
-	image_xscale = scale;
-	image_yscale = scale;
+	if sprite_index != BasicDagger && sprite_index != Swing {
+		sprite = BasicDagger;
+		scale = 0.5;
+		swingScale = 1;
+		yVal = -3;
+		damage = 1;
+		sprite_index = sprite;
+		image_angle = 0;
+		image_xscale = scale;
+		image_yscale = scale;
+	}
 }
 else if level < 10 {
-	sprite = BasicSword;
-	scale = 0.5;
-	swingScale = 1.5;
-	yVal = 1;
-	damage = 2;
-	sprite_index = sprite;
-	image_angle = 0;
-	image_xscale = scale;
-	image_yscale = scale;
+	if sprite_index != BasicSword && sprite_index != Swing {
+		sprite = BasicSword;
+		scale = 0.5;
+		swingScale = 1.5;
+		yVal = 1;
+		damage = 2;
+		sprite_index = sprite;
+		image_angle = 0;
+		image_xscale = scale;
+		image_yscale = scale;
+	}
 }
 else {
-	sprite = Greatsword;
-	scale = 0.5;
-	swingScale = 2;
-	yVal = -3;
-	damage = 3;
-	sprite_index = sprite;
-	image_angle = 0;
-	image_xscale = scale;
-	image_yscale = scale;
+	if sprite_index != Greatsword && sprite_index != Swing {
+		sprite = Greatsword;
+		scale = 0.5;
+		swingScale = 2;
+		yVal = -3;
+		damage = 3;
+		sprite_index = sprite;
+		image_angle = 0;
+		image_xscale = scale;
+		image_yscale = scale;
+	}
 }
 
-if (mouse_check_button_pressed(mb_left))
-{
+if (mouse_check_button_pressed(mb_left)) {
 	if shadow = false {
-	if alarm[1] <= 0
-		{
+		if alarm[1] <= 0 {
 			sprite_index = Swing;
 			x = Player.x;
 			y = Player.y;
@@ -47,26 +51,23 @@ if (mouse_check_button_pressed(mb_left))
 			image_xscale = swingScale;
 			image_yscale = swingScale;
 			active = true;
-			alarm[1] = 10;
+			alarm[1] = 15;
 		}
 	}
 }
-else if ((sprite_index == Swing) && (image_index > (2)))
-{
+else if ((sprite_index == Swing) && (image_index > 2)){
 	sprite_index = sprite;
 	image_angle = 0;
 	image_xscale = scale;
 	image_yscale = scale;
 	active = false;
 }
-if (sprite_index != Swing)
-{
+if (sprite_index != Swing) {
 	x = Player.x + 5;
 	y = Player.y + yVal;
 	active = false;
 }
-else 
-{	
+else {	
 	x = Player.x;
 	y = Player.y;
 }

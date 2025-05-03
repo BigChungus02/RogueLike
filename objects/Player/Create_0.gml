@@ -8,11 +8,14 @@ depth = 1;
 
 image_speed = 0;
 
+image_xscale = 0.5;
+image_yscale = 0.5;
+
 globalvar hp;
 hp = 3;
 globalvar hp_total;
 hp_total = hp;
-hp_gain = 2;
+hp_gain = 3;
 
 globalvar coins;
 coins = 0;

@@ -49,13 +49,13 @@ if (ord(_key) == ord(",")) {
 }
 if (ord(_key) == ord(".")) {
 	level = 5;
-	hp_total = 11;
+	hp_total = 15;
 	hp = hp_total;
 	xp = 0;
 }
 if (ord(_key) == ord("/")) {
 	level = 10;
-	hp_total = 21;
+	hp_total = 30;
 	hp = hp_total;
 	xp = 0;
 }

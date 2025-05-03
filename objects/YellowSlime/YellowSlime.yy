@@ -8,7 +8,7 @@
   "managed":true,
   "name":"YellowSlime",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"SlimeParrent","path":"objects/SlimeParrent/SlimeParrent.yy",},"propertyId":{"name":"hp","path":"objects/SlimeParrent/SlimeParrent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"SlimeParrent","path":"objects/SlimeParrent/SlimeParrent.yy",},"propertyId":{"name":"shp","path":"objects/SlimeParrent/SlimeParrent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"SlimeParrent","path":"objects/SlimeParrent/SlimeParrent.yy",},"propertyId":{"name":"move_speed","path":"objects/SlimeParrent/SlimeParrent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{

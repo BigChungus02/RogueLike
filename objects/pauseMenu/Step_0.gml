@@ -7,11 +7,16 @@ var accept_key = keyboard_check_pressed(vk_space);
 op_length = array_length(option[menu_level]);
 
 pos += down_key - up_key;
-if pos >= op_length {pos = 0};
-if pos < 0 {pos = op_length-1};
+if menu_level == 0 {
+	if pos < 1 {pos = op_length-1}
+	if pos >= op_length {pos = 1};
+};
+if menu_level == 1 {
+	if pos < 0 {pos = op_length-1}
+	if pos >= op_length {pos = 0};
+};
 
-if menu_level == 1 {pos = 9};
-if menu_level == 0 {if pos = 0 {pos = 1}};
+if menu_level == 1 {pos = 10};
 
 
 if accept_key {
@@ -31,6 +36,9 @@ if accept_key {
 		case 1: menu_level = 0; break;
 	}
 	
-	if _sml != menu_level {pos = 0};
+	if _sml != menu_level {
+		if menu_level == 0 {pos = 1;}
+		if menu_level == 1 {pos = 0;}
+		};
 	op_length = array_length(option[menu_level]);
 }

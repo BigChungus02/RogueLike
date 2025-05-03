@@ -5,11 +5,16 @@ var _len = _hor != 0 || _ver != 0;
 var _dir = point_direction(0, 0, _hor, _ver);
 _hor = round(lengthdir_x(_len, _dir));
 _ver = round(lengthdir_y(_len, _dir));
-// IMORTANT!!!!!!! When adding a camera that moves with the player, it will be jittery when moveing diaganal
-// To fix this follow this video https://www.youtube.com/watch?v=2JDkTIk2OkI&list=PLhIbBGhnxj5Ier75j1M9jj5xrtAaaL1_4&index=7
-// Time stamps are 7:12 to end of video.
 
-move_and_collide(_hor * move_speed, _ver *move_speed, [tilemap, layer_tilemap_get_id("Homes"), House], undefined, undefined, undefined, move_speed, move_speed);
+if alarm[2] > 0{
+	image_blend = c_black;
+	image_alpha = 0.5;
+	move_speed = 3;
+	solid = false;
+	Sword.visible = false;
+	shadow = true;
+}
+move_and_collide(_hor * move_speed, _ver *move_speed, [tilemap, House], undefined, undefined, undefined, move_speed, move_speed);
 
 if (_hor != 0 or _ver != 0)
 {
@@ -23,4 +28,34 @@ else sprite_index = Player_Down
 x = round(x);
 y = round(y);
 
+
+if keyboard_check(ord("E")) {
+	if alarm[1] <= 0{
+		alarm[1] = a2_cooldown;
+		alarm[2] = 30;
+		timer2 = 0;
+	}
+}
+if alarm[1] > 0 {timer2 += 1;}
+
 if keyboard_check(vk_escape) {room_goto(PauseScreen)};
+
+var _key = keyboard_lastchar;
+if (ord(_key) == ord(",")) {
+	level = 1;
+	hp_total = 3;
+	hp = hp_total;
+	xp = 0;
+}
+if (ord(_key) == ord(".")) {
+	level = 5;
+	hp_total = 11;
+	hp = hp_total;
+	xp = 0;
+}
+if (ord(_key) == ord("/")) {
+	level = 10;
+	hp_total = 21;
+	hp = hp_total;
+	xp = 0;
+}

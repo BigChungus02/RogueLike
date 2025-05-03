@@ -5,19 +5,19 @@ if (instance_number(SlimeParrent)  < 8)
 	if (num == 0) var _inst = instance_create_depth(x - irandom_range(5, 50), y + irandom_range(-25, 25), depth, BlueSlime);
 	else if (num == 1)
 	{
-		var _inst = instance_create_depth(x - irandom_range(-25, 25), y + irandom_range(-25, 25), depth, GreenSlime);
+		_inst = instance_create_depth(x - irandom_range(-25, 25), y + irandom_range(-25, 25), depth, GreenSlime);
 	}
 	else if (num == 2)
 	{
-		var _inst = instance_create_depth(x, y, depth, RedSlime);
+		_inst = instance_create_depth(x, y, depth, RedSlime);
 	}
 	else if (num == 3)
 	{
-		var _inst = instance_create_depth(x, y, depth, PurpleSlime);
+		_inst = instance_create_depth(x, y, depth, PurpleSlime);
 	}
 	else if (num == 4) 
 	{
-		var _inst = instance_create_depth(x, y, depth, YellowSlime);
+		_inst = instance_create_depth(x, y, depth, YellowSlime);
 	}
 	
 	//var ran = irandom_range(1, 2);

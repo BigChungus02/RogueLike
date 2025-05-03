@@ -1,10 +1,5 @@
 var md = point_direction(x, y, mouse_x, mouse_y);
 
-var _key = keyboard_lastchar;
-if (ord(_key) == ord(",")) {level = 1;}
-if (ord(_key) == ord(".")) {level = 5;}
-if (ord(_key) == ord("/")) {level = 10;}
-
 if level < 5 {
 	sprite = BasicDagger;
 	scale = 0.5;
@@ -41,17 +36,19 @@ else {
 
 if (mouse_check_button_pressed(mb_left))
 {
+	if shadow = false {
 	if alarm[1] <= 0
-	{
-		sprite_index = Swing;
-		x = Player.x;
-		y = Player.y;
-		image_angle = md;
-		image_index = 0;
-		image_xscale = swingScale;
-		image_yscale = swingScale;
-		active = true;
-		alarm[1] = 10;
+		{
+			sprite_index = Swing;
+			x = Player.x;
+			y = Player.y;
+			image_angle = md;
+			image_index = 0;
+			image_xscale = swingScale;
+			image_yscale = swingScale;
+			active = true;
+			alarm[1] = 10;
+		}
 	}
 }
 else if ((sprite_index == Swing) && (image_index > (2)))
@@ -66,6 +63,7 @@ if (sprite_index != Swing)
 {
 	x = Player.x + 5;
 	y = Player.y + yVal;
+	active = false;
 }
 else 
 {	

@@ -8,7 +8,7 @@
   "managed":true,
   "name":"BlueSlime",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"SlimeParrent","path":"objects/SlimeParrent/SlimeParrent.yy",},"propertyId":{"name":"hp","path":"objects/SlimeParrent/SlimeParrent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"SlimeParrent","path":"objects/SlimeParrent/SlimeParrent.yy",},"propertyId":{"name":"shp","path":"objects/SlimeParrent/SlimeParrent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],
   "parent":{
     "name":"Slimes",

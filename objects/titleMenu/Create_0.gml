@@ -18,9 +18,10 @@ option[1, 3] = "Move Left - A"
 option[1, 4] = "Move Down - S"
 option[1, 5] = "Move Right - D"
 option[1, 6] = "Attack - Left Click"
-option[1, 7] = "Block - Right Click"
-option[1, 8] = ""
-option[1, 9] = "Back"
+option[1, 7] = "Ability 1 - Q"
+option[1, 8] = "Ability 2 - E"
+option[1, 9] = ""
+option[1, 10] = "Back"
 
 op_length = 0; 
 menu_level = 0;

@@ -17,3 +17,6 @@ move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, SlimeParrent], 
 if (target_x >= x + 1) sprite_index = YellowSlime_Right;
 else if (target_x <= x - 1) sprite_index = YellowSlime_Left;
 else sprite_index = YellowSlime_Idle;
+
+x = round(x);
+y = round(y);

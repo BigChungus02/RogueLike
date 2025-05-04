@@ -4,4 +4,4 @@ if (instance_exists(Player) && distance_to_object(Player) < distance_to_player)
 	target_y = Player.y;
 }
 
-alarm[0] = 60;
+alarm[0] = 30;

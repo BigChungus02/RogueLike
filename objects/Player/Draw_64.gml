@@ -41,5 +41,13 @@ draw_sprite_stretched_ext(spr_box, 1, _dx, _dy, _ability2_barw, _barh, c_black, 
 
 draw_text(_dx + _barw / 2, _dy + _barh / 2, "E");
 
+_dx = 1650;
+_dy = 16;
+_barw = 256;
+_barh = 64;
+
+draw_sprite_stretched(spr_box, 0, _dx, _dy, _barw, _barh);
+draw_text(_dx + _barw / 2, _dy + _barh / 2, $"Wave {wave}");
+
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);

@@ -60,6 +60,7 @@
     {"id":{"name":"GreenSlime","path":"objects/GreenSlime/GreenSlime.yy",},},
     {"id":{"name":"HealthFlask_obj","path":"objects/HealthFlask_obj/HealthFlask_obj.yy",},},
     {"id":{"name":"House","path":"objects/House/House.yy",},},
+    {"id":{"name":"KingSlime","path":"objects/KingSlime/KingSlime.yy",},},
     {"id":{"name":"loseMenu","path":"objects/loseMenu/loseMenu.yy",},},
     {"id":{"name":"Melee_Parent","path":"objects/Melee_Parent/Melee_Parent.yy",},},
     {"id":{"name":"pauseMenu","path":"objects/pauseMenu/pauseMenu.yy",},},

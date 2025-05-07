@@ -34,6 +34,7 @@
     {"name":"BlueSlime","order":2,"path":"objects/BlueSlime/BlueSlime.yy",},
     {"name":"HealthFlask_obj","order":12,"path":"objects/HealthFlask_obj/HealthFlask_obj.yy",},
     {"name":"House","order":10,"path":"objects/House/House.yy",},
+    {"name":"KingSlime","order":8,"path":"objects/KingSlime/KingSlime.yy",},
     {"name":"loseMenu","order":11,"path":"objects/loseMenu/loseMenu.yy",},
     {"name":"pauseMenu","order":7,"path":"objects/pauseMenu/pauseMenu.yy",},
     {"name":"Player","order":1,"path":"objects/Player/Player.yy",},

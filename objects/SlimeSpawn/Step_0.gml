@@ -1,4 +1,4 @@
-if slimeKilled == slimePerWave && nextWave == false {
+if slimeKilled == slimePerWave && nextWave == false && wave != 10 {
 	nextWave = true;
 	wave += 1;
 	slimeCount = 0;

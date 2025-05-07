@@ -14,4 +14,8 @@ slimePerWave = 4;
 slimeHp = 3;
 slimeDamage = 1;
 
+globalvar nextWave;
 nextWave = true;
+
+globalvar sDamage;
+sDamage = 1;

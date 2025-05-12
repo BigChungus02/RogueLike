@@ -20,3 +20,5 @@ else sprite_index = RedSlime_Idle;
 
 x = round(x);
 y = round(y);
+
+if wave == 10 {instance_destroy(self, true)}

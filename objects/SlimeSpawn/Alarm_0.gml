@@ -56,7 +56,10 @@ if (nextWave == true) {
 	}
 	else{
 		nextWave = false;
+		slimeCount = 0;
+		slimePerWave = 1;
 		var _inst = instance_create_depth(x, y-10, depth, KingSlime);
+		instance_destroy(self, true)
 		}
 }
 

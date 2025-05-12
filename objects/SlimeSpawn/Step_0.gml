@@ -6,4 +6,4 @@ if slimeKilled == slimePerWave && nextWave == false && wave != 10 {
 	slimePerWave += 2;
 	slimeHp += 1;
 	slimeDamage += 1;
-	}
+}

@@ -59,6 +59,5 @@ if (ord(_key) == ord("/")) {
 	hp = hp_total;
 	xp = 0;
 }
-if (ord(_key) == ord("'")) {
-	wave = 10;
-}
+if (ord(_key) == ord("'")) {wave = 10;}
+if (ord(_key) == ord(";")) {wave = 1;}

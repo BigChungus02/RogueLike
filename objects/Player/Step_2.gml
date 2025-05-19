@@ -1,3 +1,4 @@
+// camera setup
 var _cam = view_camera[0];
 var _cam_width = camera_get_view_width(_cam);
 var _cam_height = camera_get_view_height(_cam);

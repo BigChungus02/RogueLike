@@ -11,12 +11,14 @@ image_speed = 0;
 image_xscale = 0.5;
 image_yscale = 0.5;
 
+// hp health
 globalvar hp;
 hp = 3;
 globalvar hp_total;
 hp_total = hp;
 hp_gain = 3;
 
+// progression 
 globalvar coins;
 coins = 0;
 
@@ -43,6 +45,7 @@ function add_xp(_xp_to_add){
 	}
 }
 
+// abilities
 globalvar a1_cooldown;
 a1_cooldown = 1200;
 globalvar timer1;

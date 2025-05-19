@@ -1,3 +1,4 @@
+// key presses and movement
 var _hor = round(keyboard_check(ord("D")) - keyboard_check(ord("A")));
 var _ver = round(keyboard_check(ord("S")) - keyboard_check(ord("W")));
 
@@ -40,6 +41,7 @@ if alarm[1] > 0 {timer2 += 1;}
 
 if keyboard_check(vk_escape) {room_goto(PauseScreen)};
 
+// Instant levels
 var _key = keyboard_lastchar;
 if (ord(_key) == ord(",")) {
 	level = 1;
@@ -59,5 +61,7 @@ if (ord(_key) == ord("/")) {
 	hp = hp_total;
 	xp = 0;
 }
+
+//Instant waves
 if (ord(_key) == ord("'")) {wave = 10;}
 if (ord(_key) == ord(";")) {wave = 1;}

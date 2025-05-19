@@ -1,3 +1,4 @@
+// gets hit
 if (alarm[2] <= 0)
 {
 	if (alarm[0] <= 0) {
